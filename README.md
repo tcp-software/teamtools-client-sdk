@@ -1,2 +1,1 @@
-# teamtools-client-sdk
-teamtools client sdk
+# Teamtools Client SDK

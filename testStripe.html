@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script src="src/funcQueue.js"></script>
+    <script src="src/ajaxWrapper.js"></script>
+    <script src="src/teamtools.js"></script>
+    <script src="src/gateway.js"></script>
+    <script src="src/stripe.js"></script>
+    <script src="src/braintree.js"></script>
+</head>
+<body>
+
+<script>
+	teamtools.initStripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
+
+	teamtools.gateway.createToken({
+	  number: '4242424242424242',
+	  exp_month: 12,
+	  exp_year: 2016
+	}, function(error, token){
+		console.log('Error', error);
+		console.log('Token', token);
+	})
+
+</script>
+
+</body>
+</html>
+

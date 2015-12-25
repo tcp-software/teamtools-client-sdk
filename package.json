@@ -1,0 +1,17 @@
+{
+	"name": "teamtools.io-fe-sdk",
+	"version": "10.3.1",
+	"description": "An example module to illustrate the usage of a package.json",
+	"contributors": [{
+		"name": "Ivan Petrovic",
+		"email": "ivan.petrovic@shiftplanning.com"
+	}],
+	"scripts": {
+		"build": "fuse -i build.js -o dst/tt.js -c",
+		"watch": "fuse -i build.js -o dst/tt.js -w -c"
+	},
+	"main": "dst/tt.js",
+	"devDependencies": {
+		"fuse": "*"
+	}
+}
