@@ -5,7 +5,7 @@
 Teamtools Client SDK can be installed by adding script tag to your html file:
 
 ```html
-<script type="text/javascript" src="https://cdn.rawgit.com/shiftplanning/teamtools-client-sdk/master/dst/tt.js"></script>
+<script type="text/javascript" src="http://resources.teamtools.io/tt.js"></script>
 ```
 To prevent problems with some older browsers, we recommend putting the script tag in the `<head>` tag of your page, or as a direct descendant of the `<body>` at the end of your page.
 
